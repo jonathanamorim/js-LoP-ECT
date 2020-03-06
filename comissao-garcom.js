@@ -1,0 +1,5 @@
+var $entrada = parseFloat(prompt('Valor: '))
+var $comissao = ($entrada*10/100)
+var $subtotal = ($entrada)
+var $total = ($entrada+$comissao)
+alert('Subtotal: '+$subtotal+'\nComissao: '+$comissao+'\nTotal: '+$total)
